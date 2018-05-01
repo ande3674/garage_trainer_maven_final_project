@@ -16,8 +16,8 @@ public class ExerciseGUI extends JFrame {
     private JButton generateWorkoutButton;
     private JTable workoutTable;
     private JButton saveButton;
-    private JButton exitButton;
     private JTextField workoutDetailsText;
+    private JButton exitProgramButton;
 
     private ExerciseDB db;
 
@@ -131,21 +131,21 @@ public class ExerciseGUI extends JFrame {
             }
         });
 
-//        exitButton.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                if (JOptionPane.showConfirmDialog(ExerciseGUI.this, "Are you sure you want to quit GarageTrainer?", "Quit", JOptionPane.OK_CANCEL_OPTION) == JOptionPane.OK_OPTION) {
-//                    System.exit(0);
-//                }
-//            }
-//        });
+        exitProgramButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (JOptionPane.showConfirmDialog(ExerciseGUI.this, "Are you sure you want to quit GarageTrainer?", "Quit", JOptionPane.OK_CANCEL_OPTION) == JOptionPane.OK_OPTION) {
+                    System.exit(0);
+                }
+            }
+        });
 
-//        saveButton.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                //test();
-//            }
-//        });
+        saveButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO
+            }
+        });
     }
 
     // TODO - make sure this works - also find a way to not add duplicates !
