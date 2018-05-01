@@ -69,7 +69,7 @@ public class ExerciseGUI extends JFrame {
         tableModel.addColumn("Description");
         tableModel.addColumn("Suggested Repetitions");
         tableModel.addColumn("Suggested Weight");
-        tableModel.addRow(columnLabels);
+        //tableModel.addRow(columnLabels);
         workoutTable.setModel(tableModel);
 
     }

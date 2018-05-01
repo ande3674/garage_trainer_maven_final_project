@@ -1,9 +1,10 @@
+import java.io.File;
 import java.sql.*;
 import java.util.Vector;
 
 public class ExerciseDB {
 
-    private static final String DB_CONNECTION_URL = "jdbc:sqlite:database\\exercise_database.sqlite";
+    private static final String DB_CONNECTION_URL = "jdbc:sqlite:database" + File.separator + "exercise_database";
 
     private static final String NAME_COLUMN = "name";
     private static final String DESCRIPTION_COLUMN = "description";
@@ -18,10 +19,10 @@ public class ExerciseDB {
     private static final String BACK_HIIT = "back/hiit";
 
     // SQL Statements
-    private static final String SELECT_ARM_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE " + ARMS;
-    private static final String SELECT_BACK_HIIT_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE " + BACK_HIIT;
-    private static final String SELECT_CORE_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE " + CORE;
-    private static final String SELECT_LEGS_BUTT_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE " + LEGS_BUTT;
+    private static final String SELECT_ARM_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE '" + ARMS + "'";
+    private static final String SELECT_BACK_HIIT_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE '" + BACK_HIIT + "'";
+    private static final String SELECT_CORE_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE '" + CORE + "'";
+    private static final String SELECT_LEGS_BUTT_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE '" + LEGS_BUTT + "'";
 
     // TODO Constructor
     ExerciseDB() {}
@@ -30,9 +31,9 @@ public class ExerciseDB {
     Vector<Vector> getAllExercises(String bodyPart) {
 
         String selectStatement;
-        if (bodyPart == ARMS){ selectStatement = SELECT_ARM_EXERCISES; }
-        else if (bodyPart == BACK_HIIT) { selectStatement = SELECT_BACK_HIIT_EXERCISES; }
-        else if (bodyPart == CORE) { selectStatement = SELECT_CORE_EXERCISES; }
+        if (bodyPart.equals(ARMS)){ selectStatement = SELECT_ARM_EXERCISES; }
+        else if (bodyPart.equals(BACK_HIIT)) { selectStatement = SELECT_BACK_HIIT_EXERCISES; }
+        else if (bodyPart.equals(CORE)) { selectStatement = SELECT_CORE_EXERCISES; }
         else { selectStatement = SELECT_LEGS_BUTT_EXERCISES; }
 
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
