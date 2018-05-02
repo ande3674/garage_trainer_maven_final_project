@@ -77,16 +77,21 @@ public class ExerciseGUI extends JFrame {
 
     private void addListeners() {
 
+        // The GUI will use this TreeMap of exercises to populate the JTable
+        // and will send this to the Exercise file writer to write the workout to a file
+
+        // the key (Integer) represents the round number ( values 1 thru numExercises )
+        // The ArrayList of Exercises will have one exercise of each body part checkBox checked
+        TreeMap<Integer, ArrayList<Exercise>> exerciseTreeMap = new TreeMap<>();
+
         generateWorkoutButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                // Clear the JTable
+                tableModel.setRowCount(0);
+
                 // Grab the number of each type of exercises to fetch from DB
                 int numExercises = (int)roundsComboBox.getSelectedItem();
-
-                // Build the tree map.
-                // the key (Integer) represents the round number ( values 1 thru numExercises )
-                // The ArrayList of Exercises will have one exercise of each body part checkBox checked
-                TreeMap<Integer, ArrayList<Exercise>> exerciseTreeMap = new TreeMap<>();
 
                 // Make sure at least one box is checked
                 if (!armsCheckBox.isSelected() && !backHIITCheckBox.isSelected() && !coreCheckBox.isSelected() && !legsButtCheckBox.isSelected()) {
@@ -127,6 +132,25 @@ public class ExerciseGUI extends JFrame {
 
                         }
                     }
+                }
+            }
+        });
+
+        saveButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Make sure the JTable is populated (ie: Generate workout button has been pushed)
+                //Send the TreeMap to the File Writer class
+                if (tableModel.getRowCount() == 0){
+                    // Display error
+                    JOptionPane.showMessageDialog(ExerciseGUI.this, "Please have the program generate a workout to save.", "Error", JOptionPane.OK_OPTION);
+                }
+                else {
+                    // save this workout to file
+                    ExerciseFileWriter.saveWorkoutToFile(exerciseTreeMap, nameTextField.getText());
+
+                    // TODO Confirmation Message
+
                 }
             }
         });
