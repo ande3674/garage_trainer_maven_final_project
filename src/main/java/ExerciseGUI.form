@@ -8,7 +8,7 @@
     <properties>
       <background color="-3480846"/>
     </properties>
-    <border type="none"/>
+    <border type="etched"/>
     <children>
       <component id="d3e9b" class="javax.swing.JTextField" binding="nameTextField">
         <constraints>
