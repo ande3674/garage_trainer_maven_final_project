@@ -1,10 +1,5 @@
 public class Exercise {
 
-//    private static final String LEGS_BUTT = "legs/butt";
-//    private static final String ARMS = "arms";
-//    private static final String CORE = "core";
-//    private static final String BACK_HIIT = "back/hiit";
-
     private String name;
     private String description;
     private String bodyPart;

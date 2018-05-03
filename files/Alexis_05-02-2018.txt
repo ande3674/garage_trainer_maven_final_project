@@ -1,0 +1,82 @@
+Alexis's workout for 05-02-2018
+
+ ---------- ROUND 1 ---------- 
+1.0 arms exercise: plank jacks
+	description: Start in high plank. Keeping your core engaged, jump your feet out and in (like jumping jacks).
+	reps: 12
+	weight: 0
+
+1.1 back/hiit exercise: mountain climbers
+	description: Perform standard mountain climbers.
+	reps: 25
+	weight: 0
+
+1.2 legs/butt exercise: dead-lift
+	description: start with the weights on the floor. Pull them up to your mid-thighs and lock your hips and knees. Return the weights to the floor by moving your hips back while bending your legs. Rest a second at the bottom and repeat.
+	reps: 8
+	weight: 50
+
+ ---------- ROUND 2 ---------- 
+2.0 arms exercise: hammer curls
+	description: Hold weights in hands with palms facing in. Perform hammer curl. Medium to heavy weight.
+	reps: 8
+	weight: 15
+
+2.1 back/hiit exercise: swimmers
+	description: Lay on your tummy with limbs stretched. Swim on the floor, activating back muscles.
+	reps: 20
+	weight: 0
+
+2.2 legs/butt exercise: yogi squat
+	description: Begin on feet, crouched down with tailbone between ankles. Press elbows against inner thighs. Stand up tall, but keep elbows between knees. Squat back down.
+	reps: 20
+	weight: 0
+
+ ---------- ROUND 3 ---------- 
+3.0 arms exercise: upright row
+	description: Your closed palms should be facing your body. The shoulders should be over your pelvis, with knees slightly bent. Keeping the dumbbells close to your body, raise them to your shoulders, bending your elbows out to the sides. Slowly lower them to the starting position. 
+	reps: 8
+	weight: 15
+
+3.1 back/hiit exercise: star planks
+	description: Get into pushup position. Move your arms and feet apart as wide as possible—your body will make a star shape. Hold the position with your torso straight and abs braced for 30 seconds.
+	reps: 25
+	weight: 0
+
+3.2 legs/butt exercise: weighted elevated lunge
+	description: In lunge position, place back foot on a block or short platform. Lower down until front leg is parallel with ground. Press back up.
+	reps: 8
+	weight: 40
+
+ ---------- ROUND 4 ---------- 
+4.0 arms exercise: inchworm
+	description: Start standing. Hinge forward and place your palms on the mat. Walk your hands forward so that you’re in high plank. Walk your hands back toward feet and stand up.
+	reps: 10
+	weight: 0
+
+4.1 back/hiit exercise: mountain climbers
+	description: Perform standard mountain climbers.
+	reps: 25
+	weight: 0
+
+4.2 legs/butt exercise: glute bridge off box
+	description: place your heels up on the box. You want your knees bent to 90 degrees or your butt to be even closer to the box. Then driving through your heels on top of the box, press your hips up as high as you can. Squeeze your glutes. Hold for a second or two and then lower down.
+	reps: 15
+	weight: 0
+
+ ---------- ROUND 5 ---------- 
+5.0 arms exercise: tricep kickback
+	description: Sit back into a slight squat with arms bent at 90- degree angles, and dumbbells on the sides of the chest. Press dumbbells back past hips hugging the side body while working your triceps and return the arms back to 90-degrees.
+	reps: 8
+	weight: 10
+
+5.1 back/hiit exercise: squat thrusters
+	description: From a high plank position, jump feet forward into a wide squat and bring hands off the ground either into a prayer position or in front of your chest. Pause for a second, then place hands on the ground and jump feet back into a high plank position. Repeat as quickly as possible.
+	reps: 15
+	weight: 0
+
+5.2 legs/butt exercise: donkey kick
+	description: Come onto all fours, hands under shoulders, knees under hips. Place weight behind knee. Bring leg up at a 90 degree angle, isolating glute. Bring back down.
+	reps: 15
+	weight: 15
+

@@ -24,7 +24,7 @@ public class ExerciseDB {
     private static final String SELECT_CORE_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE '" + CORE + "'";
     private static final String SELECT_LEGS_BUTT_EXERCISES = "SELECT * FROM exercises WHERE " + BODY_PART_COLUMN + " LIKE '" + LEGS_BUTT + "'";
 
-    // TODO Constructor
+    // Constructor
     ExerciseDB() {}
 
     // Get all exercises
@@ -83,43 +83,4 @@ public class ExerciseDB {
 
         return colNames;
     }
-
-
-
-
-
-    // Get all arm exercises
-//    Vector<Vector> getAllArmExercises() {
-//
-//        try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
-//             Statement statement = conn.createStatement()) {
-//            ResultSet rs = statement.executeQuery(SELECT_ARM_EXERCISES);
-//            Vector<Vector> vectors = new Vector<>();
-//
-//            String bodyPart = ARMS;
-//            String name, description;
-//            boolean performBothSides;
-//            int repetitions, weight;
-//
-//            while (rs.next()){
-//                name = rs.getString(NAME_COLUMN);
-//                description = rs.getString(DESCRIPTION_COLUMN);
-//                performBothSides = rs.getBoolean(PERFORM_BOTH_SIDES_COLUMN);
-//                repetitions = rs.getInt(REPETITIONS_COLUMN);
-//                weight = rs.getInt(WEIGHT_COLUMN);
-//
-//                Vector v = new Vector();
-//                v.add(name); v.add(description); v.add(bodyPart);
-//                v.add(performBothSides); v.add(repetitions); v.add(weight);
-//
-//                vectors.add(v);
-//            }
-//
-//            return vectors;
-//        }
-//
-//        catch (SQLException sqle){
-//            throw new RuntimeException(sqle);
-//        }
-//    }
 }

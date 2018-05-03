@@ -164,13 +164,6 @@ public class ExerciseGUI extends JFrame {
                 }
             }
         });
-
-        saveButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // TODO
-            }
-        });
     }
 
     // TODO - make sure this works - also find a way to not add duplicates !

@@ -1,0 +1,66 @@
+Ryan's workout for 05-02-2018
+
+ ---------- ROUND 1 ---------- 
+1.0 arms exercise: tricep kickback
+	description: Sit back into a slight squat with arms bent at 90- degree angles, and dumbbells on the sides of the chest. Press dumbbells back past hips hugging the side body while working your triceps and return the arms back to 90-degrees.
+	reps: 8
+	weight: 10
+
+1.1 back/hiit exercise: reverse snow angels
+	description: Facedown on the ground with arms at your sides and palms facing down. Peel your shoulders and hands a few inches off the ground. Keeping your head facing down, in a slow, controlled motion, bring your arms up past your shoulders and up to your ears until your thumbs meet directly above your head. Then, bring your arms back to the starting position.
+	reps: 20
+	weight: 0
+
+1.2 legs/butt exercise: elevated bridge
+	description: Place your back up on a box. Drive up to a modified table top position, squeeze glutes and hold for a second. Lower back down.
+	reps: 8
+	weight: 40
+
+ ---------- ROUND 2 ---------- 
+2.0 arms exercise: bent-over row
+	description: Lean forward and bend both knees, keep a flat back. Extend your arms so they are straight. Lift the dumbbells straight up to chest level, squeezing your shoulder blades together as you do. Be sure to keep your elbows in and pointed upward. Slowly lower the weights back to the starting position.
+	reps: 8
+	weight: 15
+
+2.1 back/hiit exercise: frog jumps
+	description: Squat low, jump forward like a frog into another low squat position, jump backwards like a frog into low squat position. That is one rep.
+	reps: 12
+	weight: 0
+
+2.2 legs/butt exercise: weighted curtsy squat
+	description: Stand upright. As you lower your body, pick one foot up off the floor and cross it behind your other leg. Slowly lower your body down until your hips are in a normal squat position. Drive up through your standing leg and repeat on both sides.
+	reps: 8
+	weight: 40
+
+ ---------- ROUND 3 ---------- 
+3.0 arms exercise: skull crushers
+	description: Lie on your back. Raise your arms so they are above your chest, making sure your elbows are straight. Lower both arms toward your head, bending your elbows to 90 degrees. Lift your arms back to starting position. Medium weights.
+	reps: 8
+	weight: 10
+
+3.1 back/hiit exercise: heismans
+	description: Start in a standing position with your knees slightly bent. Lift your bent right leg up. Quickly hop to the right, while lifting your bent left knee up to hip height. Hop to the left, lifting your right knee to hip height. Repeat.
+	reps: 20
+	weight: 0
+
+3.2 legs/butt exercise: glute bridge off box
+	description: place your heels up on the box. You want your knees bent to 90 degrees or your butt to be even closer to the box. Then driving through your heels on top of the box, press your hips up as high as you can. Squeeze your glutes. Hold for a second or two and then lower down.
+	reps: 15
+	weight: 0
+
+ ---------- ROUND 4 ---------- 
+4.0 arms exercise: inchworm
+	description: Start standing. Hinge forward and place your palms on the mat. Walk your hands forward so that you’re in high plank. Walk your hands back toward feet and stand up.
+	reps: 10
+	weight: 0
+
+4.1 back/hiit exercise: high knees
+	description: Stand up straight and place your feet about hip-width apart. Place your hands palms down facing the floor, hovering just above your belly button. Quickly drive your right knee up to meet your right hand, bring the same leg back to the ground immediately bring the left knee coming up to meet your left hand.
+	reps: 20
+	weight: 0
+
+4.2 legs/butt exercise: straight leg donkey kick
+	description: Down on all fours.  Keep the knees together and lower your upper body further by bending your elbows and keeping the forearm straight on the floor. Straighten your right leg and lift it as much as you can.  Bring down the leg and repeat with the other leg.
+	reps: 20
+	weight: 0
+
