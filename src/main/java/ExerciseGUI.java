@@ -149,7 +149,8 @@ public class ExerciseGUI extends JFrame {
                     // save this workout to file
                     ExerciseFileWriter.saveWorkoutToFile(exerciseTreeMap, nameTextField.getText());
 
-                    // TODO Confirmation Message
+                    // Confirmation Message
+                    JOptionPane.showMessageDialog(ExerciseGUI.this, "This workout was successfully saved!", "Workout Saved", JOptionPane.INFORMATION_MESSAGE);
 
                 }
             }
