@@ -16,9 +16,9 @@ public class Main {
         //String template = "%s, here is your custom workout for %s:";
         //String date = new SimpleDateFormat("MM-dd-yyyy").format(new Date());
         //System.out.println(String.format(template, "Ali", date));
-        String template = "%s_%s.txt";
-        String date = new SimpleDateFormat("MM-dd-yyyy").format(new Date());
-        String filename = String.format(template, "Ali", date);
-        System.out.println(filename);
+        //String template = "%s_%s.txt";
+        //String date = new SimpleDateFormat("MM-dd-yyyy").format(new Date());
+        //String filename = String.format(template, "Ali", date);
+        //System.out.println(filename);
     }
 }

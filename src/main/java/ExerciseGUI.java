@@ -166,7 +166,6 @@ public class ExerciseGUI extends JFrame {
         });
     }
 
-    // TODO - make sure this works - also find a way to not add duplicates !
     private ArrayList<Exercise> getAndOrganizeExercisesForTreeMap(ArrayList<String> bodyPartList){
         ArrayList<Exercise> exercises = new ArrayList<>();
         // Talk to database and get 1 exercise for each checked body part...
