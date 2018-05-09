@@ -1,0 +1,82 @@
+Ali's workout for 05-08-2018
+
+ ---------- ROUND 1 ---------- 
+1.0 arms exercise: skull crushers
+	description: Lie on your back. Raise your arms so they are above your chest, making sure your elbows are straight. Lower both arms toward your head, bending your elbows to 90 degrees. Lift your arms back to starting position. Medium weights.
+	reps: 8
+	weight: 10
+
+1.1 back/hiit exercise: mountain climbers
+	description: Perform standard mountain climbers.
+	reps: 25
+	weight: 0
+
+1.2 legs/butt exercise: weighted elevated lunge
+	description: In lunge position, place back foot on a block or short platform. Lower down until front leg is parallel with ground. Press back up.
+	reps: 8
+	weight: 40
+
+ ---------- ROUND 2 ---------- 
+2.0 arms exercise: plank taps
+	description: Start in high plank. Then tap your left hand to your right shoulder while engaging your core and glutes to keep your hips as still as possible. Repeat on right.
+	reps: 20
+	weight: 0
+
+2.1 back/hiit exercise: sprint in place
+	description: Run in place as fast as you can
+	reps: 25
+	weight: 0
+
+2.2 legs/butt exercise: straight leg donkey kick
+	description: Down on all fours.  Keep the knees together and lower your upper body further by bending your elbows and keeping the forearm straight on the floor. Straighten your right leg and lift it as much as you can.  Bring down the leg and repeat with the other leg.
+	reps: 20
+	weight: 0
+
+ ---------- ROUND 3 ---------- 
+3.0 arms exercise: outside bicep curl
+	description: Hold your arms out to the sides and perform a regular bicep curl. Medium to heavy weight.
+	reps: 8
+	weight: 15
+
+3.1 back/hiit exercise: plank with alternating raises
+	description: Get into push-up position. Lift right arm and left leg at the same time without moving torso. Hold. Return to starting position, then repeat, lifting opposite leg and arm. That is one rep.
+	reps: 20
+	weight: 0
+
+3.2 legs/butt exercise: jump curtsy squat
+	description: Perform a regular curtsy squat, but jump up as you change legs.
+	reps: 20
+	weight: 0
+
+ ---------- ROUND 4 ---------- 
+4.0 arms exercise: diamond push-ups
+	description: Start in high plank. Walk your hands together so that your thumbs and forefingers form a diamond. Bend your elbows to lower your torso toward the ground to do a complete push-up.
+	reps: 10
+	weight: 0
+
+4.1 back/hiit exercise: jumping jacks
+	description: Basic jumping jacks
+	reps: 25
+	weight: 0
+
+4.2 legs/butt exercise: squat with side kick
+	description: Stand with your feet shoulder-width distance apart, feet parallel. Bend your knees, lowering your hips deeply into a squat, keeping weight back in your heels. Then rise back up, straightening the legs completely and lifting the right leg out to the side, squeezing the outer glute. As you step the foot back into shoulder-width distance position, squat down again. Then stand up and do a side leg lift on the left side. Lower the leg back to the starting position.
+	reps: 10
+	weight: 0
+
+ ---------- ROUND 5 ---------- 
+5.0 arms exercise: upright row
+	description: Your closed palms should be facing your body. The shoulders should be over your pelvis, with knees slightly bent. Keeping the dumbbells close to your body, raise them to your shoulders, bending your elbows out to the sides. Slowly lower them to the starting position. 
+	reps: 8
+	weight: 15
+
+5.1 back/hiit exercise: star planks
+	description: Get into pushup position. Move your arms and feet apart as wide as possible—your body will make a star shape. Hold the position with your torso straight and abs braced for 30 seconds.
+	reps: 25
+	weight: 0
+
+5.2 legs/butt exercise: weighted elevated lunge
+	description: In lunge position, place back foot on a block or short platform. Lower down until front leg is parallel with ground. Press back up.
+	reps: 8
+	weight: 40
+
