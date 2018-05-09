@@ -27,9 +27,9 @@ public class ExerciseDB {
     // Constructor
     ExerciseDB() {}
 
-    // Get all exercises
+    // Get all exercises for the specified body part from the db
     Vector<Vector> getAllExercises(String bodyPart) {
-
+        // which body part?? get the correct SQL statement...
         String selectStatement;
         if (bodyPart.equals(ARMS)){ selectStatement = SELECT_ARM_EXERCISES; }
         else if (bodyPart.equals(BACK_HIIT)) { selectStatement = SELECT_BACK_HIIT_EXERCISES; }
@@ -45,13 +45,15 @@ public class ExerciseDB {
             boolean performBothSides;
             int repetitions, weight;
 
-            while (rs.next()){
+            while (rs.next()){ // while there are still exercises in the result set...
+                // get the exercise data..
                 name = rs.getString(NAME_COLUMN);
                 description = rs.getString(DESCRIPTION_COLUMN);
                 performBothSides = rs.getBoolean(PERFORM_BOTH_SIDES_COLUMN);
                 repetitions = rs.getInt(REPETITIONS_COLUMN);
                 weight = rs.getInt(WEIGHT_COLUMN);
 
+                // create the exercise data vector and add it to the Vector of Vectors...
                 Vector v = new Vector();
                 v.add(name); v.add(description); v.add(bodyPart);
                 v.add(performBothSides); v.add(repetitions); v.add(weight);

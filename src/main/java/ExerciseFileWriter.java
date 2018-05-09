@@ -9,7 +9,7 @@ import java.util.TreeMap;
 
 public class ExerciseFileWriter {
 
-    private final static String template = "%s_%s.txt";
+    private final static String template = "%s_%s.txt"; // file name template
     private final static String directory = "files";
 
     public static void saveWorkoutToFile(TreeMap<Integer, ArrayList<Exercise>> exerciseTreeMap, String username) {

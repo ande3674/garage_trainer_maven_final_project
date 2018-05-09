@@ -185,6 +185,7 @@ public class ExerciseGUI extends JFrame {
         });
     }
 
+    // Takes care of the exercises for ONE ROUND -- will be called once for each number of rounds selected
     private ArrayList<Exercise> getAndOrganizeExercisesForTreeMap(ArrayList<String> bodyPartList){
         ArrayList<Exercise> exercises = new ArrayList<>();
         // Talk to database and get 1 exercise for each checked body part...
@@ -215,13 +216,14 @@ public class ExerciseGUI extends JFrame {
         return exercises;
     }
 
+    // Shows the contents of a cell when the user selects one and clicks button
     private void showDescriptionDialog(int row, int col){
 
         String desc = (String)workoutTable.getValueAt(row, col);
         JOptionPane.showMessageDialog(ExerciseGUI.this, desc);
-        //JOptionPane.showMessageDialog(ExerciseGUI.this, "Description: " + desc, "Description");
     }
 
+    // IGNORE -- Used to test some features of the project without needing the working Database
     private void test(){
         TreeMap<Integer, ArrayList<Exercise>> test = new TreeMap<>();
         Exercise e1 = new Exercise("pushup", "", "arms", false, 12, 0);
