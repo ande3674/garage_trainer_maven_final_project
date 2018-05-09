@@ -18,6 +18,7 @@ public class ExerciseGUI extends JFrame {
     private JButton saveButton;
     private JTextField workoutDetailsText;
     private JButton exitProgramButton;
+    private JButton getDetailsButton;
 
     private ExerciseDB db;
 
@@ -164,6 +165,24 @@ public class ExerciseGUI extends JFrame {
                 }
             }
         });
+
+        getDetailsButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Make sure a cell is selected
+                try {
+                    // Get the selected cell col & row
+                    int row = workoutTable.getSelectedRow();
+                    int col = workoutTable.getSelectedColumn();
+
+                    // display the info in this cell
+                    showDescriptionDialog(row, col);
+                }
+                catch (ArrayIndexOutOfBoundsException aioobe){
+                    JOptionPane.showMessageDialog(ExerciseGUI.this, "Please select a cell in the table.");
+                }
+            }
+        });
     }
 
     private ArrayList<Exercise> getAndOrganizeExercisesForTreeMap(ArrayList<String> bodyPartList){
@@ -194,6 +213,13 @@ public class ExerciseGUI extends JFrame {
             exercises.add(exercise);
         }
         return exercises;
+    }
+
+    private void showDescriptionDialog(int row, int col){
+
+        String desc = (String)workoutTable.getValueAt(row, col);
+        JOptionPane.showMessageDialog(ExerciseGUI.this, desc);
+        //JOptionPane.showMessageDialog(ExerciseGUI.this, "Description: " + desc, "Description");
     }
 
     private void test(){
